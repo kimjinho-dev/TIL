@@ -8,6 +8,12 @@ for i in range(1,N+1):
     print(i)
 ```
 
+```python
+for i in range(1,N+1):
+    if N % i == 0:
+        print(i)
+```
+
 ## 2. List의 합 구하기
 
 ```python
@@ -16,6 +22,12 @@ def list_sum(num):
     for i in num:
         total += i
     return total
+```
+
+```python
+for i in list_a:
+    total += i
+return total
 ```
 
 ## 3. Dictionary로 이루어진 List의 합 구하기
@@ -28,6 +40,8 @@ def dict_list_sum(num):
     return total
 ```
 
+
+
 ## 4. 2차원 List의 전체 합 구하기
 
 ```python
@@ -38,6 +52,8 @@ def all_list_sum(num):
             total += m
     return total
 ```
+
+[a for _ in num] for a in num
 
 ## 5. 숫자의 의미
 
