@@ -11,6 +11,17 @@ def turn(temperatures):
             max_min_dict['minimum'].append(t[0])
     return max_min_dict
 
+    # maximum = []
+    # minimum = []
+    # for temper in temperatures:
+    #     if temper[0] > temper[1]:
+    #         maximum.append(temper[0])
+    #         minimum.append(temper[1])
+    #     else:
+    #         maximum.append(temper[1])
+    #         minimum.append(temper[0])
+    # return {'maximum': maximum, 'minimum': minimum}
+
 
 # 아래의 코드는 수정하지 않습니다.
 if __name__ == '__main__':

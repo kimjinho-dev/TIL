@@ -6,6 +6,11 @@ def is_user_data_valid(user_data):
     else:
         return True
 
+    # for a in user_data:
+    #     if user_data[a] == '':
+    #         return False
+    # return True
+
 
 # 아래의 코드는 수정하지 않습니다.
 if __name__ == '__main__':
